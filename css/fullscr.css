@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "RBNo2";
+    src: url(../fonts/RBNo2Light.otf) format("opentype");
+}
 body{
 	width: 100%;
 	min-width: 1024px !important;
@@ -10,7 +14,7 @@ body{
 	background-repeat: repeat;
 	position:relative;
 	color:#ffffff;
-	font-family: 'RBNo2 Light', Calibri;
+	font-family: 'RBNo2', Calibri;
 }
 *{
 	margin: 0px;
