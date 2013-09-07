@@ -122,7 +122,7 @@ var makecircle=function(){
 	});
 
 	$(".menus").css({
-		'-webkit-transform-origin': centerxlocal+ "px "+centerylocal+ "px"
+		'-webkit-transform-origin': (centerxlocal-5)+ "px "+(centerylocal-17)+ "px"
 	});
 	menumanager();
 	//alert(menuangles[3].start)

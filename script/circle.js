@@ -117,12 +117,13 @@ var makecircle=function(){
 	var centerxlocal=$cir.width()/2;
 	var centerylocal=$cir.height()/2;
 	var x,y,ang,num,oldnum=-1;
+	alert(centerxlocal);
 	$partcir.css({
 		'-webkit-transform-origin': centerxlocal+ "px "+centerylocal+ "px"
 	});
 
 	$(".menus").css({
-		'-webkit-transform-origin': centerxlocal+ "px "+centerylocal+ "px"
+		'-webkit-transform-origin': centerxlocal-20+ "px "+centerylocal-20+ "px"
 	});
 	menumanager();
 	//alert(menuangles[3].start)
